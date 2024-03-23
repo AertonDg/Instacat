@@ -1,0 +1,24 @@
+.meuFooter {
+    margin: auto;
+    text-align: center;
+    background-color: #EB6440;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+}
+
+.text {
+    padding: 32px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+    .meuFooter {
+        height: auto;
+        padding: 20px;
+    }
+
+    .text {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
